@@ -1,0 +1,315 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="TFVsy-XrcMBmmS_nnnug">
+    <mxGraphModel dx="1548" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="用户" vertex="1">
+          <mxGeometry height="989" width="150" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="前端页面" vertex="1">
+          <mxGeometry height="989" width="150" x="220" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="订单控制器" vertex="1">
+          <mxGeometry height="989" width="150" x="434" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="订单服务" vertex="1">
+          <mxGeometry height="989" width="150" x="648" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="库存服务" vertex="1">
+          <mxGeometry height="989" width="150" x="848" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="数据库" vertex="1">
+          <mxGeometry height="989" width="150" x="1062" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="消息队列" vertex="1">
+          <mxGeometry height="989" width="150" x="1262" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-8" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-2" value="提交商品下单请求">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-9" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-3" value="同步请求创建订单&#xa;(商品ID、用户ID)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-10" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-4" value="同步：创建订单数据">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-11" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-6" value="同步：写入订单记录">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="939" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-12" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-4" value="返回：订单创建成功">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="942" y="432" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-13" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-3" value="返回：订单ID">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="628" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-14" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=classic;endSize=10;" target="UkBL3m6khL4NYPTQ0OTC-7" value="异步：发送扣减库存消息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="932" y="644" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-15" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-2" value="立即返回：下单成功&#xa;(不等待库存扣减)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="711" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-16" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-5" value="消费：扣减库存请求">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1142" y="808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-17" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-6" value="同步：扣减商品库存">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1039" y="856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-18" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-5" value="返回：库存扣减完成">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1042" y="904" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-19" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="下单主流程" vertex="1">
+          <mxGeometry height="49" width="1292" x="70" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-20" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="同步消息" vertex="1">
+          <mxGeometry height="49" width="678" x="484" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-21" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="自反消息：生成订单编号&#xa;并校验订单状态" vertex="1">
+          <mxGeometry height="67" width="196" x="411" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-22" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="异步消息（后台处理）" vertex="1">
+          <mxGeometry height="49" width="264" x="270" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-23" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="异步后台继续执行" vertex="1">
+          <mxGeometry height="49" width="250" x="1112" y="731" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="用户" vertex="1">
+          <mxGeometry height="1782" width="150" x="20" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="前端页面" vertex="1">
+          <mxGeometry height="1782" width="150" x="220" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-26" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="订单控制器" vertex="1">
+          <mxGeometry height="1782" width="150" x="460" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="订单服务" vertex="1">
+          <mxGeometry height="1782" width="150" x="674" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="库存服务" vertex="1">
+          <mxGeometry height="1782" width="150" x="874" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="数据库" vertex="1">
+          <mxGeometry height="1782" width="150" x="1074" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="消息队列" vertex="1">
+          <mxGeometry height="1782" width="150" x="1274" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-31" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#d79b00;height=20;width=30;fillColor=#ffe6cc;" value="alt" vertex="1">
+          <mxGeometry height="294" width="495" x="665" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-32" parent="UkBL3m6khL4NYPTQ0OTC-31" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[写入成功]" vertex="1">
+          <mxGeometry height="20" width="465" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-33" parent="UkBL3m6khL4NYPTQ0OTC-31" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[写入失败]" vertex="1">
+          <mxGeometry height="4" width="495" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-34" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;height=20;width=40;fillColor=#ffe6cc;strokeColor=#d79b00;" value="loop" vertex="1">
+          <mxGeometry height="397" width="515" x="655" y="1317" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-35" parent="UkBL3m6khL4NYPTQ0OTC-34" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[最多重试3次]" vertex="1">
+          <mxGeometry height="20" width="475" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-36" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=default;height=20;width=30;fillColor=#d5e8d4;" value="opt" vertex="1">
+          <mxGeometry height="179" width="170" x="450" y="1821" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-37" parent="UkBL3m6khL4NYPTQ0OTC-36" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[开启日志记录-&#xa;]" vertex="1">
+          <mxGeometry height="20" width="140" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-38" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="379" width="495" x="865" y="2338" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-39" parent="UkBL3m6khL4NYPTQ0OTC-38" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[库存充足]" vertex="1">
+          <mxGeometry height="20" width="465" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-40" parent="UkBL3m6khL4NYPTQ0OTC-38" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[库存不足]" vertex="1">
+          <mxGeometry height="4" width="495" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-41" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-24" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-25" value="提交商品下单请求">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="1182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-42" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-25" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-26" value="同步请求创建订单&#xa;(商品ID、用户ID、数量)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="424" y="1249" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-43" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-26" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-27" value="同步：创建订单数据">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="651" y="1297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-44" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-27" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-29" value="同步：写入订单记录">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="958" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-45" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-29" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-27" value="返回订单ID">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="961" y="1483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-46" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-29" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-27" value="返回失败">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="961" y="1576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-47" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-27" style="curved=1;endArrow=block;rounded=0;" target="UkBL3m6khL4NYPTQ0OTC-27" value="等待后重试">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1624" />
+              <mxPoint x="800" y="1654" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-48" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-27" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-26" value="返回订单ID">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="654" y="1752" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-49" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-26" style="curved=1;endArrow=block;rounded=0;" target="UkBL3m6khL4NYPTQ0OTC-26" value="自反：记录请求日志">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="586" y="1920" />
+              <mxPoint x="586" y="1950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-50" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-26" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=classic;endSize=10;" target="UkBL3m6khL4NYPTQ0OTC-30" value="异步：发送扣减库存消息&#xa;(商品ID、数量)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="951" y="2106" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-51" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-26" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-25" value="立即返回下单成功&#xa;(不等待库存扣减)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427" y="2173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-52" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-25" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-24" value="展示成功信息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="2221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-53" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-30" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-28" value="消费：扣减库存请求">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1161" y="2318" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-54" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-28" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-29" value="同步扣减库存">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1058" y="2411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-55" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-29" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-28" value="扣减完成">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1061" y="2459" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-56" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-28" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-30" value="(可选) 确认成功">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1158" y="2507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-57" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-28" style="curved=1;endArrow=block;rounded=0;" target="UkBL3m6khL4NYPTQ0OTC-28" value="记录库存不足日志&#xa;/发送失败消息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="2619" />
+              <mxPoint x="1000" y="2649" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-58" edge="1" parent="1" source="UkBL3m6khL4NYPTQ0OTC-28" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="UkBL3m6khL4NYPTQ0OTC-30" value="(可选) 返回失败">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1158" y="2697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-59" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="阶段一：下单主流程（同步）" vertex="1">
+          <mxGeometry height="49" width="1304" x="70" y="1105" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-60" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="自反：生成订单编号、校验状态" vertex="1">
+          <mxGeometry height="49" width="244" x="413" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-61" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="阶段二：异步发送与快速响应" vertex="1">
+          <mxGeometry height="49" width="290" x="270" y="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="UkBL3m6khL4NYPTQ0OTC-62" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="阶段三：后台异步扣库存" vertex="1">
+          <mxGeometry height="49" width="250" x="1124" y="2241" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
