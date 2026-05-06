@@ -1,0 +1,251 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="CItVQUMFWgkaaqKf5jen">
+    <mxGraphModel dx="620" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="客户" vertex="1">
+          <mxGeometry height="1145" width="35" x="1090" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="数据库" vertex="1">
+          <mxGeometry height="1145" width="150" x="1232" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-9" parent="Aa3JuZHNZeK_2uk_CiuU-8" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="56" width="10" x="70" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-10" parent="Aa3JuZHNZeK_2uk_CiuU-8" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="56" width="10" x="70" y="816" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ATM接口" vertex="1">
+          <mxGeometry height="1145" width="150" x="1432" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="读卡器" vertex="1">
+          <mxGeometry height="1145" width="150" x="1632" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="账户控制器" vertex="1">
+          <mxGeometry height="1145" width="162" x="1832" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-14" parent="Aa3JuZHNZeK_2uk_CiuU-13" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="178" width="10" x="76" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-15" parent="Aa3JuZHNZeK_2uk_CiuU-13" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="178" width="10" x="76" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-16" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-11" value="1. 插入银行卡">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1316" y="300" />
+            </Array>
+            <mxPoint x="1106.0714285714284" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-17" parent="Aa3JuZHNZeK_2uk_CiuU-16" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-207.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-18" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-11" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-12" value="2. 读取卡号">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1616" y="356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-19" parent="Aa3JuZHNZeK_2uk_CiuU-18" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="2" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-107.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-20" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-12" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-11" value="返回卡号信息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1619" y="404" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-21" parent="Aa3JuZHNZeK_2uk_CiuU-20" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="3" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="93.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-22" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-11" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="3. 提示输入密码">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1319" y="460" />
+            </Array>
+            <mxPoint x="1106.0714285714284" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-23" parent="Aa3JuZHNZeK_2uk_CiuU-22" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="4" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="193.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-24" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-11" value="4. 输入密码">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1316" y="516" />
+            </Array>
+            <mxPoint x="1106.0714285714284" y="516" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-25" parent="Aa3JuZHNZeK_2uk_CiuU-24" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="5" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-207.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-26" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-11" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-14" value="5. 验证密码(卡号, 密码)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1719" y="572" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-27" parent="Aa3JuZHNZeK_2uk_CiuU-26" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-210.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-28" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-14" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-9" value="6. 查询账户信息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-29" parent="Aa3JuZHNZeK_2uk_CiuU-28" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="7" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="294.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-30" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-9" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-14" value="7. 返回验证结果(成功)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1619" y="684" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-31" parent="Aa3JuZHNZeK_2uk_CiuU-30" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="8" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-306.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-32" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-14" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-11" value="8. 验证通过">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-33" parent="Aa3JuZHNZeK_2uk_CiuU-32" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="9" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="194.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-34" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-11" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="9. 显示主菜单">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1319" y="796" />
+            </Array>
+            <mxPoint x="1106.0714285714284" y="796" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-35" parent="Aa3JuZHNZeK_2uk_CiuU-34" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="10" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="193.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-36" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-11" value="10. 选择取款 &amp; 输入金额(200)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1316" y="852" />
+            </Array>
+            <mxPoint x="1106.0714285714284" y="852" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-37" parent="Aa3JuZHNZeK_2uk_CiuU-36" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="11" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-207.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-38" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-11" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-15" value="11. 请求扣款(金额)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1719" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-39" parent="Aa3JuZHNZeK_2uk_CiuU-38" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="12" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-210.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-40" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-15" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-10" value="12. 更新余额">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="956" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-41" parent="Aa3JuZHNZeK_2uk_CiuU-40" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="13" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="294.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-42" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-10" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-15" value="13. 更新成功">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1619" y="1012" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-43" parent="Aa3JuZHNZeK_2uk_CiuU-42" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="14" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-306.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-44" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-15" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-11" value="14. 扣款确认">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="1068" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-45" parent="Aa3JuZHNZeK_2uk_CiuU-44" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="15" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="194.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-46" edge="1" parent="1" source="Aa3JuZHNZeK_2uk_CiuU-11" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="15. 吐出现金 &amp; 打印凭条">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1319" y="1124" />
+            </Array>
+            <mxPoint x="1106.0714285714284" y="1124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-47" parent="Aa3JuZHNZeK_2uk_CiuU-46" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="16" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="193.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-48" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Aa3JuZHNZeK_2uk_CiuU-11" value="16. 取走现金和卡片">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1316" y="1180" />
+            </Array>
+            <mxPoint x="1106.0714285714284" y="1180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-49" parent="Aa3JuZHNZeK_2uk_CiuU-48" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="17" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-207.5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aa3JuZHNZeK_2uk_CiuU-50" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="场景：客户取款成功流程" vertex="1">
+          <mxGeometry height="49" width="910" x="1090" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
