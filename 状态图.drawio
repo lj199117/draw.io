@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="ondM_FHO06JRWBW7EY3T">
+    <mxGraphModel dx="1126" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-1" parent="1" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="20" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-2" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="停止_门关闭" vertex="1">
+          <mxGeometry height="40" width="104" x="132" y="149" as="geometry" />
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-3" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="上行中" vertex="1">
+          <mxGeometry height="40" width="64" x="486" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-4" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="下行中" vertex="1">
+          <mxGeometry height="40" width="64" x="486" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-5" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="开门中" vertex="1">
+          <mxGeometry height="40" width="64" x="696" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-6" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="门开着" vertex="1">
+          <mxGeometry height="40" width="64" x="918" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-7" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="关门中" vertex="1">
+          <mxGeometry height="40" width="64" x="1137" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-8" parent="1" style="ellipse;shape=endState;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="511" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-9" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-1" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.46;entryX=0;entryY=0.49;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-2" value="初始化">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-10" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-2" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.77;exitY=-0.01;entryX=0.01;entryY=0.5;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-3" value="收到上行呼叫&#xa;目标楼层&gt;当前楼层">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="361" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-11" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-2" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.2;entryX=0.01;entryY=0.5;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-4" value="收到下行呼叫&#xa;目标楼层&amp;lt;当前楼层">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="361" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-12" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-3" style="curved=1;startArrow=none;;fillColor=none;;exitX=1.01;exitY=0.5;entryX=0.01;entryY=0.16;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-5" value="到达目标楼层">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="623" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-13" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-4" style="curved=1;startArrow=none;;fillColor=none;;exitX=1.01;exitY=0.5;entryX=0.01;entryY=0.84;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-5" value="到达目标楼层">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="623" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-14" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-5" style="curved=1;startArrow=none;;fillColor=none;;exitX=1.01;exitY=0.34;entryX=0;entryY=0.34;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-6" value="开门完成">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="839" y="63" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-15" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-6" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.5;entryX=-0.01;entryY=0.05;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-7" value="超时/按下关门">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1059" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-16" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-6" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.11;exitY=1;entryX=0.9;entryY=1;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-5" value="门被阻挡(防夹)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="839" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-17" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-7" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.17;exitY=0.99;entryX=0.93;entryY=0.99;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-2" value="关门完成">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1059" y="249" />
+              <mxPoint x="361" y="249" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ReRbZadHYdu_fXaX4aI-18" edge="1" parent="1" source="9ReRbZadHYdu_fXaX4aI-2" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.77;entryX=0.03;entryY=0.5;rounded=0;" target="9ReRbZadHYdu_fXaX4aI-8" value="系统关闭">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="361" y="207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
