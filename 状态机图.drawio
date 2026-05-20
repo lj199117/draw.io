@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="NtrrOLc0-0Kn1xCkfKG6">
+    <mxGraphModel dx="993" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-19" parent="1" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="20" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-20" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="已创建" vertex="1">
+          <mxGeometry height="40" width="64" x="148" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-21" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="已支付" vertex="1">
+          <mxGeometry height="40" width="64" x="520" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-22" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="已发货" vertex="1">
+          <mxGeometry height="40" width="64" x="720" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-23" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="支付判断" vertex="1">
+          <mxGeometry height="40" width="80" x="326" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-24" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="已取消(终止)" vertex="1">
+          <mxGeometry height="40" width="108" x="698" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-25" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="已完成(终止)" vertex="1">
+          <mxGeometry height="40" width="108" x="920" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-26" parent="1" style="ellipse;shape=endState;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="1078" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-27" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-19" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-20" value="创建订单">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-28" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-20" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.25;entryX=0;entryY=0.49;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-23" value="发起支付">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269" y="96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-29" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-23" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.14;entryX=0;entryY=0.5;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-21" value="支付成功">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463" y="62" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-30" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-23" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.95;entryX=0;entryY=0.36;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-24" value="支付失败">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463" y="141" />
+              <mxPoint x="641" y="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-31" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-21" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.3;entryX=0;entryY=0.5;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-22" value="商家发货">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="641" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-32" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-22" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-25" value="确认收货">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-33" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-20" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.96;exitY=1;entryX=0;entryY=0.89;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-24" value="用户取消">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269" y="184" />
+              <mxPoint x="641" y="184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-34" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-21" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.76;entryX=0.16;entryY=0;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-24" value="申请取消">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="641" y="91" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-35" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-25" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.5;entryX=0.18;entryY=-0.04;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1053" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0BeGpnCBFMgDJehBl6G-36" edge="1" parent="1" source="B0BeGpnCBFMgDJehBl6G-24" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.5;entryX=0.18;entryY=0.96;rounded=0;" target="B0BeGpnCBFMgDJehBl6G-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1053" y="152" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
